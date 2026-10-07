@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">Perfil de Alejandro Gonzalez Aragon</title>
+  <desc id="desc">Banner estilo terminal azul y cian para un desarrollador junior.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071426"/>
+      <stop offset="55%" stop-color="#0b2340"/>
+      <stop offset="100%" stop-color="#06111f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#38bdf8" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="960" height="300" rx="18" fill="url(#grid)"/>
+  <rect x="22" y="22" width="916" height="256" rx="12" fill="#07111f" fill-opacity=".82" stroke="#245a88"/>
+  <rect x="22" y="22" width="916" height="38" rx="12" fill="#0d2238"/>
+  <rect x="22" y="48" width="916" height="12" fill="#0d2238"/>
+  <circle cx="47" cy="41" r="6" fill="#fb7185"/>
+  <circle cx="67" cy="41" r="6" fill="#fbbf24"/>
+  <circle cx="87" cy="41" r="6" fill="#4ade80"/>
+  <text x="116" y="46" fill="#93c5fd" font-family="monospace" font-size="14">alejandro@github:~ / profile</text>
+
+  <line x1="55" y1="84" x2="570" y2="84" stroke="url(#line)" stroke-width="2"/>
+  <text x="55" y="115" fill="#22d3ee" font-family="monospace" font-size="17" font-weight="700">$ whoami</text>
+  <text x="55" y="151" fill="#f8fafc" font-family="monospace" font-size="25" font-weight="700">Ing. Alejandro Gonzalez Aragon</text>
+  <text x="55" y="184" fill="#93c5fd" font-family="monospace" font-size="17">Desarrollador Junior</text>
+  <text x="55" y="214" fill="#cbd5e1" font-family="monospace" font-size="14">Python · JavaScript · Automatizacion · Soporte TI</text>
+  <text x="55" y="242" fill="#67e8f9" font-family="monospace" font-size="14">status: construyendo proyectos</text>
+  <rect x="344" y="229" width="10" height="16" rx="1" fill="#67e8f9" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(685 91)" fill="none" stroke="#38bdf8" stroke-width="2">
+    <circle cx="94" cy="64" r="50" stroke-opacity=".55"/>
+    <circle cx="94" cy="64" r="29" stroke-opacity=".8"/>
+    <path d="M94 4V124M34 64H154M52 22L136 106M136 22L52 106" stroke-opacity=".4"/>
+    <circle cx="94" cy="64" r="8" fill="#22d3ee" stroke="none" filter="url(#glow)"/>
+    <circle cx="94" cy="14" r="4" fill="#60a5fa" stroke="none"/>
+    <circle cx="144" cy="64" r="4" fill="#60a5fa" stroke="none"/>
+    <circle cx="94" cy="114" r="4" fill="#60a5fa" stroke="none"/>
+    <circle cx="44" cy="64" r="4" fill="#60a5fa" stroke="none"/>
+  </g>
+  <text x="716" y="244" fill="#60a5fa" font-family="monospace" font-size="12">SYSTEM READY</text>
+</svg>
