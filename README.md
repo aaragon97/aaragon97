@@ -1,7 +1,5 @@
 <div align="center">
-  <a href="https://www.linkedin.com/in/alejandrogonzalezaragon">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=25&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Ing.+Alejandro+Gonz%C3%A1lez+Arag%C3%B3n;Desarrollador+Junior+%7C+Automatizaci%C3%B3n+%7C+Soporte+TI;Python+%7C+JavaScript+%7C+Google+Apps+Script" alt="Perfil de Alejandro González Aragón">
-  </a>
+  <img src="assets/banner-alejandro.svg" width="960" alt="Banner de perfil de Alejandro González Aragón">
 </div>
 
 ---
